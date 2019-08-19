@@ -1,4 +1,5 @@
 # Joseph Farris
 
-Grade 10 /n
+Grade 10
+
 Hello There.
