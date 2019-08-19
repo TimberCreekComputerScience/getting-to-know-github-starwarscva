@@ -1,0 +1,16 @@
+import java.util.Scanner;  
+public class HelloWorld {
+        public static void main(String[] args) {
+            Scanner lemonade = new Scanner(System.in);  
+            System.out.println("How many cups of lemonade do you want?");
+            int cups = lemonade.nextInt();
+            System.out.println("You want " + cups + " cups of lemonade."); 
+            double cost = 2.5;
+            cost = cups * cost;
+            if (cost >= 1) {
+                System.out.printf("Your total is $%.2f",  cost);
+            } else {
+                System.out.printf("I demand the sum of... One Million Dollars!");
+            }
+  }
+}
